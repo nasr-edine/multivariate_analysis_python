@@ -1,8 +1,14 @@
-.ipynb_checkpoints
+# ignore all Jupyter checkpoint files
+*.ipynb_checkpoints
 
+# ignore all Python bytecode files
 __pycache__/
 
+# ignore virtual environments
 *env*/
+
+# ignore Visual Studio Code configuration files
 .vscode/
 
+# ignore any data files
 data/
