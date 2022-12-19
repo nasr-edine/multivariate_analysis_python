@@ -1,4 +1,4 @@
-![Python](https://badgen.net/pypi/python/black) ![data analysis](https://badgen.net/badge/subject/data_analysis/blue) 
+![Python](https://badgen.net/pypi/python/black) ![data analysis](https://badgen.net/badge/subject/data_analysis/blue)
 
 # [Project 3] Prepare data for a public health agency
 
@@ -16,7 +16,7 @@ clone repository locally
 git clone https://github.com/nasr-edine/multivariate_analysis_python.git
 ```
 
-Move to the multivariate_analysis_python root folder:
+Navigate to the root directory::
 
 ```bash
 cd multivariate_analysis_python/
