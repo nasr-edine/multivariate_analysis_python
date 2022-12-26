@@ -5,3 +5,5 @@ pandas
 seaborn
 statsmodels
 folium
+ipywidgets
+plotly
