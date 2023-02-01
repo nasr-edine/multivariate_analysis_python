@@ -1,4 +1,5 @@
 jupyterlab
+jupyterlab-git
 matplotlib
 numpy
 pandas
@@ -8,3 +9,5 @@ folium
 ipywidgets
 plotly
 colorama
+scikit-learn
+missingno

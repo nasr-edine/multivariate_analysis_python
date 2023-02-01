@@ -33,8 +33,15 @@ def run_checks():
     # check the requirements
     for pkg in requirements:
         try:
-            mod = importlib.import_module(pkg)
-            print(f"{OK} {mod.__name__}")
+            if pkg == "scikit-learn":
+                pkg = "sklearn"
+            if pkg == 'jupyterlab-git':
+                pkg = 'jupyterlab_git'
+            if pkg.startswith("#"):
+                pass
+            else:
+                mod = importlib.import_module(pkg)
+                print(f"{OK} {mod.__name__}")
         except ImportError:
             print(f"{FAIL} {pkg} not installed.")
 
