@@ -11,3 +11,4 @@ plotly
 colorama
 scikit-learn
 missingno
+wordcloud
